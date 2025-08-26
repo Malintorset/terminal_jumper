@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>/Users/vilsl/Code/gitlabuib/terminaljumper/src/main</OriginalElement>
+  <nodes>
+    <node x="-476.75188905333624" y="-61.39894193820443">terminaljumper.midi.DefaultAudioManager</node>
+    <node x="838.8923850987451" y="622.5242522953015">terminaljumper.helper.GameMode</node>
+    <node x="-894.5373043376663" y="817.5001336976148">terminaljumper.objects.Bomb</node>
+    <node x="-873.9953274664159" y="502.32205434038383">terminaljumper.objects.PowerUp</node>
+    <node x="1839.1228628180897" y="910.1531226580983">terminaljumper.controller.InputHandler</node>
+    <node x="1471.5018524313987" y="426.54746772693534">terminaljumper.helper.Camera</node>
+    <node x="1838.9075306260709" y="1134.9994209135673">terminaljumper.controller.DefaultInputHandler</node>
+    <node x="418.0134150056836" y="-87.11559290045946">terminaljumper.TerminalJumper</node>
+    <node x="1012.7013468585367" y="1160.1991292659434">terminaljumper.objects.GameEntity</node>
+    <node x="812.5156997321106" y="-84.41623009656162">terminaljumper.view.MainMenuScreen</node>
+    <node x="1187.9489487960004" y="-377.78626749441975">terminaljumper.view.HowToPlayScreen</node>
+    <node x="-983.4938219452295" y="-394.914442443298">terminaljumper.helper.RenderUtils</node>
+    <node x="-756.3871422142571" y="108.03581649271163">terminaljumper.helper.Map</node>
+    <node x="-232.93929755376269" y="1548.9492231463098">terminaljumper.helper.tilemap.TileMapHandler</node>
+    <node x="-648.3785459116173" y="801.9323636693729">terminaljumper.objects.DoubleJump</node>
+    <node x="-479.001552318234" y="-402.94372340290295">terminaljumper.midi.AudioManager</node>
+    <node x="-360.905628704109" y="802.1052798288393">terminaljumper.objects.Star</node>
+    <node x="536.2688984868577" y="1451.9958754718798">terminaljumper.helper.EnemyFactory</node>
+    <node x="-174.5668127696784" y="-388.53707487559416">terminaljumper.helper.CollisionHandler</node>
+    <node x="-839.429313601901" y="956.6681917860758">terminaljumper.helper.PowerUpHandler</node>
+    <node x="-961.7350796167264" y="-53.224798219132865">terminaljumper.helper.BodyHelperService</node>
+    <node x="290.6954330686861" y="250.95368218864206">terminaljumper.view.GameScreen</node>
+    <node x="417.89703586895246" y="-382.7435866813517">terminaljumper.view.ModeScreen</node>
+    <node x="-230.93928352353376" y="963.3032182500876">terminaljumper.helper.tilemap.DefaultTileMapHandler</node>
+    <node x="-977.7250947883122" y="96.0531159962253">terminaljumper.helper.Constants</node>
+    <node x="1458.4837233287801" y="944.3675409525615">terminaljumper.objects.Player</node>
+    <node x="756.4344426955633" y="268.6731564762463">terminaljumper.view.GameOverScreen</node>
+    <node x="542.4165998363417" y="1104.7101771462922">terminaljumper.objects.Mouse</node>
+    <node x="-580.1133169294774" y="534.1668872497767">terminaljumper.helper.PowerUpFactory</node>
+    <node x="794.910146874958" y="-380.1476677328989">terminaljumper.view.SettingsScreen</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="terminaljumper.view.MainMenuScreen" target="terminaljumper.TerminalJumper" relationship="TO_ONE">
+      <point x="3.002678893153643E-4" y="-116.49976990343838" />
+      <point x="947.016" y="-115.0" />
+      <point x="506.513" y="-115.0" />
+      <point x="-4.150056836351723E-4" y="-68.50040709954054" />
+    </edge>
+    <edge source="terminaljumper.view.GameScreen" target="terminaljumper.helper.tilemap.TileMapHandler" relationship="TO_ONE">
+      <point x="-30.000433068686107" y="238.49999999999994" />
+      <point x="420.195" y="1665.4492231463098" />
+      <point x="245.0" y="0.0" />
+    </edge>
+    <edge source="terminaljumper.view.ModeScreen" target="terminaljumper.TerminalJumper" relationship="TO_ONE">
+      <point x="-3.5868952409146004E-5" y="116.4995866813517" />
+      <point x="562.897" y="-115.0" />
+      <point x="506.513" y="-115.0" />
+      <point x="-4.150056836351723E-4" y="-68.50040709954054" />
+    </edge>
+    <edge source="terminaljumper.view.SettingsScreen" target="terminaljumper.TerminalJumper" relationship="TO_ONE">
+      <point x="-1.468749579771611E-4" y="116.49966773289893" />
+      <point x="947.91" y="-115.0" />
+      <point x="506.513" y="-115.0" />
+      <point x="-4.150056836351723E-4" y="-68.50040709954054" />
+    </edge>
+    <edge source="terminaljumper.helper.tilemap.DefaultTileMapHandler" target="terminaljumper.view.GameScreen" relationship="TO_ONE">
+      <point x="245.00000000000003" y="0.0" />
+      <point x="405.195" y="1225.8032182500876" />
+      <point x="-45.00043306868611" y="238.49999999999994" />
+    </edge>
+    <edge source="terminaljumper.view.ModeScreen" target="terminaljumper.view.GameScreen" relationship="CREATE">
+      <point x="144.9999641310476" y="-4.133186483272766E-4" />
+      <point x="724.0" y="-266.244" />
+      <point x="724.0" y="489.454" />
+      <point x="159.49956693131395" y="3.178113579451747E-4" />
+    </edge>
+    <edge source="terminaljumper.objects.Mouse" target="terminaljumper.objects.GameEntity" relationship="GENERALIZATION">
+      <point x="102.50040016365836" y="14.999822853707883" />
+      <point x="940.769" y="1262.21" />
+      <point x="940.769" y="1118.0" />
+      <point x="1174.701" y="1118.0" />
+      <point x="-3.4685853665905597E-4" y="-166.50012926594331" />
+    </edge>
+    <edge source="terminaljumper.view.GameOverScreen" target="terminaljumper.view.MainMenuScreen" relationship="CREATE">
+      <point x="149.58155730443673" y="-116.50015647624627" />
+      <point x="1099.016" y="-99.0" />
+      <point x="932.016" y="-99.0" />
+      <point x="-14.999699732110685" y="-116.49976990343838" />
+    </edge>
+    <edge source="terminaljumper.helper.EnemyFactory" target="terminaljumper.objects.Mouse" relationship="CREATE">
+      <point x="-97.35229865051599" y="-44.5" />
+      <point x="0.0" y="142.5" />
+    </edge>
+    <edge source="terminaljumper.objects.Player" target="terminaljumper.objects.GameEntity" relationship="GENERALIZATION">
+      <point x="-129.4997233287802" y="4.590474384258414E-4" />
+      <point x="1354.201" y="1194.868" />
+      <point x="1354.201" y="1118.0" />
+      <point x="1174.701" y="1118.0" />
+      <point x="-3.4685853665905597E-4" y="-166.50012926594331" />
+    </edge>
+    <edge source="terminaljumper.helper.tilemap.DefaultTileMapHandler" target="terminaljumper.objects.DoubleJump" relationship="TO_MANY">
+      <point x="-14.99971647646624" y="-262.50021825008764" />
+      <point x="-0.9390000000000001" y="940.0" />
+      <point x="-519.879" y="940.0" />
+      <point x="14.999545911617247" y="31.49963633062714" />
+    </edge>
+    <edge source="terminaljumper.TerminalJumper" target="terminaljumper.view.MainMenuScreen" relationship="CREATE">
+      <point x="88.49958499431642" y="-4.070995405385247E-4" />
+      <point x="738.934" y="-18.616" />
+      <point x="738.934" y="-99.0" />
+      <point x="932.016" y="-99.0" />
+      <point x="-14.999699732110685" y="-116.49976990343838" />
+    </edge>
+    <edge source="terminaljumper.view.MainMenuScreen" target="terminaljumper.view.ModeScreen" relationship="CREATE">
+      <point x="134.4999999999999" y="0.0" />
+      <point x="1530.4489487960004" y="32.08376990343838" />
+      <point x="1530.4489487960004" y="-420.44372340290295" />
+      <point x="562.8970358689525" y="-420.44372340290295" />
+      <point x="0.0" y="-116.5" />
+    </edge>
+    <edge source="terminaljumper.view.GameOverScreen" target="terminaljumper.TerminalJumper" relationship="TO_ONE">
+      <point x="-4.4269556337894755E-4" y="-116.50015647624627" />
+      <point x="949.434" y="200.0" />
+      <point x="400.513" y="200.0" />
+      <point x="400.513" y="-115.0" />
+      <point x="506.513" y="-115.0" />
+      <point x="-4.150056836351723E-4" y="-68.50040709954054" />
+    </edge>
+    <edge source="terminaljumper.view.MainMenuScreen" target="terminaljumper.view.SettingsScreen" relationship="CREATE">
+      <point x="-134.49969973211068" y="2.3009656161931957E-4" />
+      <point x="789.0" y="32.084" />
+      <point x="789.0" y="67.384" />
+      <point x="769.5" y="67.38400000000001" />
+      <point x="769.5" y="-266.244" />
+      <point x="-153.00014687495798" y="-2.596332267101104" />
+    </edge>
+    <edge source="terminaljumper.objects.Mouse" target="terminaljumper.helper.GameMode" relationship="TO_ONE">
+      <point x="102.50040016365836" y="-1.7714629211695865E-4" />
+      <point x="794.0" y="1247.21" />
+      <point x="794.0" y="679.024" />
+      <point x="-109.00038509874503" y="-2.5229530149317725E-4" />
+    </edge>
+    <edge source="terminaljumper.view.GameScreen" target="terminaljumper.helper.Camera" relationship="CREATE">
+      <point x="159.49999999999994" y="91.59378553829328" />
+      <point x="-193.5" y="0.0" />
+    </edge>
+    <edge source="terminaljumper.controller.DefaultInputHandler" target="terminaljumper.controller.InputHandler" relationship="REALIZATION">
+      <point x="-11.784667807981123" y="-94.5" />
+      <point x="0.0" y="68.5" />
+    </edge>
+    <edge source="terminaljumper.view.GameScreen" target="terminaljumper.controller.DefaultInputHandler" relationship="CREATE">
+      <point x="-79.68243306868612" y="-238.5" />
+      <point x="370.513" y="-450.44372340290295" />
+      <point x="2096.407530626071" y="-450.44372340290295" />
+      <point x="2096.407530626071" y="1244.4994209135673" />
+      <point x="112.50000000000023" y="15.0" />
+    </edge>
+    <edge source="terminaljumper.objects.Bomb" target="terminaljumper.objects.PowerUp" relationship="GENERALIZATION">
+      <point x="93.00030433766631" y="-1.3369761484227638E-4" />
+      <point x="-685.5" y="849.0" />
+      <point x="73.99532746641592" y="118.49994565961617" />
+    </edge>
+    <edge source="terminaljumper.helper.tilemap.DefaultTileMapHandler" target="terminaljumper.objects.Bomb" relationship="TO_MANY">
+      <point x="2.835235337599329E-4" y="-262.50021825008764" />
+      <point x="14.061" y="923.0" />
+      <point x="-801.537" y="923.0" />
+      <point x="3.043376663072195E-4" y="31.499866302385158" />
+    </edge>
+    <edge source="terminaljumper.view.GameScreen" target="terminaljumper.helper.tilemap.DefaultTileMapHandler" relationship="CREATE">
+      <point x="-159.5" y="-4.631627848258233" />
+      <point x="44.061" y="484.82205434038383" />
+      <point x="30.00028352353376" y="-262.5" />
+    </edge>
+    <edge source="terminaljumper.midi.DefaultAudioManager" target="terminaljumper.midi.AudioManager" relationship="REALIZATION">
+      <point x="-2.2496632648977766" y="-178.5" />
+      <point x="0.0" y="140.5" />
+    </edge>
+    <edge source="terminaljumper.view.GameScreen" target="terminaljumper.helper.Camera" relationship="TO_ONE">
+      <point x="14.999566931313893" y="238.5003178113579" />
+      <point x="465.195" y="780.0" />
+      <point x="1665.002" y="780.0" />
+      <point x="1.4756860127818072E-4" y="154.4995322730647" />
+    </edge>
+    <edge source="terminaljumper.view.GameScreen" target="terminaljumper.objects.Mouse" relationship="TO_ONE">
+      <point x="151.99999999999994" y="238.49999999999994" />
+      <point x="-42.72116676765563" y="-142.5" />
+    </edge>
+    <edge source="terminaljumper.helper.PowerUpFactory" target="terminaljumper.objects.DoubleJump" relationship="CREATE">
+      <point x="-133.7652289821399" y="44.5" />
+      <point x="0.0" y="-31.5" />
+    </edge>
+    <edge source="terminaljumper.helper.PowerUpHandler" target="terminaljumper.objects.DoubleJump" relationship="TO_ONE">
+      <point x="-14.999686398099016" y="-202.5001917860758" />
+      <point x="-665.929" y="940.0" />
+      <point x="-519.879" y="940.0" />
+      <point x="14.999545911617247" y="31.49963633062714" />
+    </edge>
+    <edge source="terminaljumper.view.GameScreen" target="terminaljumper.helper.GameMode" relationship="TO_ONE">
+      <point x="159.49956693131395" y="35.04631781135794" />
+      <point x="794.0" y="524.5" />
+      <point x="794.0" y="679.024" />
+      <point x="-109.00038509874503" y="-2.5229530149317725E-4" />
+    </edge>
+    <edge source="terminaljumper.view.GameScreen" target="terminaljumper.objects.Player" relationship="TO_ONE">
+      <point x="-4.330686861067079E-4" y="238.5003178113579" />
+      <point x="450.195" y="823.0" />
+      <point x="1587.984" y="823.0" />
+      <point x="2.7667121980812226E-4" y="-250.49954095256146" />
+    </edge>
+    <edge source="terminaljumper.view.GameScreen" target="terminaljumper.controller.DefaultInputHandler" relationship="TO_ONE">
+      <point x="-64.68243306868612" y="-238.5" />
+      <point x="385.513" y="-435.44372340290295" />
+      <point x="2081.407530626071" y="-435.44372340290295" />
+      <point x="2081.407530626071" y="1229.4994209135673" />
+      <point x="112.50000000000023" y="0.0" />
+    </edge>
+    <edge source="terminaljumper.objects.DoubleJump" target="terminaljumper.objects.PowerUp" relationship="GENERALIZATION">
+      <point x="-4.540883827530706E-4" y="31.49963633062714" />
+      <point x="-534.879" y="888.0" />
+      <point x="-685.5" y="888.0" />
+      <point x="73.99532746641592" y="118.49994565961617" />
+    </edge>
+    <edge source="terminaljumper.helper.tilemap.DefaultTileMapHandler" target="terminaljumper.helper.tilemap.TileMapHandler" relationship="REALIZATION">
+      <point x="-2.0000140302289253" y="262.5" />
+      <point x="0.0" y="-116.5" />
+    </edge>
+    <edge source="terminaljumper.helper.PowerUpHandler" target="terminaljumper.objects.Star" relationship="TO_ONE">
+      <point x="15.000313601900984" y="-202.5001917860758" />
+      <point x="-635.929" y="906.0" />
+      <point x="-290.0" y="906.0" />
+      <point x="-16.594371295890994" y="31.499720171160675" />
+    </edge>
+    <edge source="terminaljumper.controller.DefaultInputHandler" target="terminaljumper.objects.Player" relationship="TO_ONE">
+      <point x="106.21546937392918" y="-94.50042091356727" />
+      <point x="2057.623" y="823.0" />
+      <point x="1587.984" y="823.0" />
+      <point x="2.7667121980812226E-4" y="-250.49954095256146" />
+    </edge>
+    <edge source="terminaljumper.view.HowToPlayScreen" target="terminaljumper.TerminalJumper" relationship="TO_ONE">
+      <point x="5.1203999646531884E-5" y="116.50026749441975" />
+      <point x="1350.449" y="-115.0" />
+      <point x="506.513" y="-115.0" />
+      <point x="-4.150056836351723E-4" y="-68.50040709954054" />
+    </edge>
+    <edge source="terminaljumper.helper.PowerUpFactory" target="terminaljumper.objects.Star" relationship="CREATE">
+      <point x="127.70768822536837" y="44.5" />
+      <point x="0.0" y="-31.5" />
+    </edge>
+    <edge source="terminaljumper.view.GameOverScreen" target="terminaljumper.view.GameScreen" relationship="CREATE">
+      <point x="-193.00044269556338" y="-1.5647624627490586E-4" />
+      <point x="724.0" y="385.173" />
+      <point x="724.0" y="489.454" />
+      <point x="159.49956693131395" y="3.178113579451747E-4" />
+    </edge>
+    <edge source="terminaljumper.view.GameScreen" target="terminaljumper.view.GameOverScreen" relationship="CREATE">
+      <point x="159.49999999999994" y="-14.999682188642055" />
+      <point x="-193.0" y="89.28084352375373" />
+    </edge>
+    <edge source="terminaljumper.helper.PowerUpFactory" target="terminaljumper.objects.Bomb" relationship="CREATE">
+      <point x="0.0" y="-44.5" />
+      <point x="-401.1133169294774" y="484.82205434038383" />
+      <point x="-891.4953274664159" y="484.82205434038383" />
+      <point x="-89.95802312874957" y="-31.5" />
+    </edge>
+    <edge source="terminaljumper.objects.Mouse" target="terminaljumper.helper.Camera" relationship="TO_ONE">
+      <point x="-14.999599836341645" y="-142.50017714629212" />
+      <point x="629.917" y="780.0" />
+      <point x="1665.002" y="780.0" />
+      <point x="1.4756860127818072E-4" y="154.4995322730647" />
+    </edge>
+    <edge source="terminaljumper.helper.tilemap.DefaultTileMapHandler" target="terminaljumper.objects.Player" relationship="CREATE">
+      <point x="-245.0" y="0.0" />
+      <point x="-305.0" y="1225.8032182500876" />
+      <point x="-305.0" y="1799.4492231463098" />
+      <point x="1587.9837233287801" y="1799.4492231463098" />
+      <point x="0.0" y="250.5" />
+    </edge>
+    <edge source="terminaljumper.view.MainMenuScreen" target="terminaljumper.view.HowToPlayScreen" relationship="CREATE">
+      <point x="134.4999999999999" y="-15.0" />
+      <point x="1369.201" y="17.08376990343838" />
+      <point x="18.7520512039996" y="116.5" />
+    </edge>
+    <edge source="terminaljumper.view.HowToPlayScreen" target="terminaljumper.view.MainMenuScreen" relationship="CREATE">
+      <point x="-14.999948796000353" y="116.50026749441975" />
+      <point x="1335.449" y="-99.0" />
+      <point x="932.016" y="-99.0" />
+      <point x="-14.999699732110685" y="-116.49976990343838" />
+    </edge>
+    <edge source="terminaljumper.helper.PowerUpHandler" target="terminaljumper.objects.Bomb" relationship="TO_ONE">
+      <point x="3.136019009843949E-4" y="-202.5001917860758" />
+      <point x="-650.929" y="923.0" />
+      <point x="-801.537" y="923.0" />
+      <point x="3.043376663072195E-4" y="31.499866302385158" />
+    </edge>
+    <edge source="terminaljumper.midi.DefaultAudioManager" target="terminaljumper.midi.AudioManager" relationship="TO_ONE">
+      <point x="12.750336735102223" y="-178.5" />
+      <point x="15.0" y="140.5" />
+    </edge>
+    <edge source="terminaljumper.view.GameScreen" target="terminaljumper.TerminalJumper" relationship="TO_ONE">
+      <point x="-4.330686861067079E-4" y="-238.49968218864205" />
+      <point x="450.195" y="200.0" />
+      <point x="400.513" y="200.0" />
+      <point x="400.513" y="-115.0" />
+      <point x="506.513" y="-115.0" />
+      <point x="-4.150056836351723E-4" y="-68.50040709954054" />
+    </edge>
+    <edge source="terminaljumper.objects.Star" target="terminaljumper.objects.PowerUp" relationship="GENERALIZATION">
+      <point x="-3.7129589100004523E-4" y="31.499720171160675" />
+      <point x="-273.406" y="888.0" />
+      <point x="-685.5" y="888.0" />
+      <point x="73.99532746641592" y="118.49994565961617" />
+    </edge>
+    <edge source="terminaljumper.view.GameOverScreen" target="terminaljumper.helper.GameMode" relationship="TO_ONE">
+      <point x="-4.4269556337894755E-4" y="116.49984352375373" />
+      <point x="949.434" y="605.024" />
+      <point x="794.0" y="605.024" />
+      <point x="794.0" y="679.024" />
+      <point x="-109.00038509874503" y="-2.5229530149317725E-4" />
+    </edge>
+    <edge source="terminaljumper.helper.tilemap.DefaultTileMapHandler" target="terminaljumper.objects.Star" relationship="TO_MANY">
+      <point x="15.00028352353376" y="-262.50021825008764" />
+      <point x="29.061" y="906.0" />
+      <point x="-290.0" y="906.0" />
+      <point x="-16.594371295890994" y="31.499720171160675" />
+    </edge>
+    <edge source="terminaljumper.objects.Mouse" target="terminaljumper.objects.Player" relationship="TO_ONE">
+      <point x="4.001636583552681E-4" y="-142.50017714629212" />
+      <point x="644.917" y="823.0" />
+      <point x="1587.984" y="823.0" />
+      <point x="2.7667121980812226E-4" y="-250.49954095256146" />
+    </edge>
+    <edge source="terminaljumper.view.GameOverScreen" target="terminaljumper.view.SettingsScreen" relationship="CREATE">
+      <point x="14.999557304436621" y="-116.50015647624627" />
+      <point x="964.434" y="166.084" />
+      <point x="789.0" y="166.084" />
+      <point x="789.0" y="67.384" />
+      <point x="769.5" y="67.38400000000001" />
+      <point x="769.5" y="-266.244" />
+      <point x="-153.00014687495798" y="-2.596332267101104" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.3806741573033708" showDependencies="true" x="556.5" y="674.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
